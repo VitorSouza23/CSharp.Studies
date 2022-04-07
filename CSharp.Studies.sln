@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.MatchingPattern", "Console.MatchingPattern\Console.MatchingPattern.csproj", "{9B1BD56C-1D48-414B-8BF0-728D29BC4FF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.PipeFunctions", "Console.PipeFunctions\Console.PipeFunctions.csproj", "{39C1E840-C4F4-4D85-9AAC-1029BE74F6CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9B1BD56C-1D48-414B-8BF0-728D29BC4FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B1BD56C-1D48-414B-8BF0-728D29BC4FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B1BD56C-1D48-414B-8BF0-728D29BC4FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C1E840-C4F4-4D85-9AAC-1029BE74F6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C1E840-C4F4-4D85-9AAC-1029BE74F6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C1E840-C4F4-4D85-9AAC-1029BE74F6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C1E840-C4F4-4D85-9AAC-1029BE74F6CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
