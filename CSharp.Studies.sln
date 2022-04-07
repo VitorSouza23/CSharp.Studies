@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.PipeFunctions", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.CovarianceAndContravariance", "Console.CovarianceAndContravariance\Console.CovarianceAndContravariance.csproj", "{6DB5E4FB-D239-436D-9779-C235E78B3B28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.LinqQuerySintax", "Console.LinqQuerySintax\Console.LinqQuerySintax.csproj", "{9ABDC058-0D1E-452B-9A59-0C19818BF49F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6DB5E4FB-D239-436D-9779-C235E78B3B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DB5E4FB-D239-436D-9779-C235E78B3B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DB5E4FB-D239-436D-9779-C235E78B3B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ABDC058-0D1E-452B-9A59-0C19818BF49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ABDC058-0D1E-452B-9A59-0C19818BF49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ABDC058-0D1E-452B-9A59-0C19818BF49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ABDC058-0D1E-452B-9A59-0C19818BF49F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
