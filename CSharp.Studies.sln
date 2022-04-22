@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.Span", "Console.Spa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.Memory", "Console.Memory\Console.Memory.csproj", "{9D994C22-8C0F-4924-9DA1-39429ADAD97A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Flags", "Console.Flags\Console.Flags.csproj", "{44C544D9-7DB6-44B8-A1B8-DABFC0AF3010}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.Flags", "Console.Flags\Console.Flags.csproj", "{44C544D9-7DB6-44B8-A1B8-DABFC0AF3010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.HigherOrderFunctions", "Console.HigherOrderFunctions\Console.HigherOrderFunctions.csproj", "{B30B99B0-7B9B-4CC5-9151-B6259E501012}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{44C544D9-7DB6-44B8-A1B8-DABFC0AF3010}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44C544D9-7DB6-44B8-A1B8-DABFC0AF3010}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44C544D9-7DB6-44B8-A1B8-DABFC0AF3010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30B99B0-7B9B-4CC5-9151-B6259E501012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30B99B0-7B9B-4CC5-9151-B6259E501012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30B99B0-7B9B-4CC5-9151-B6259E501012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30B99B0-7B9B-4CC5-9151-B6259E501012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
