@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.Flags", "Console.Fl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.HigherOrderFunctions", "Console.HigherOrderFunctions\Console.HigherOrderFunctions.csproj", "{B30B99B0-7B9B-4CC5-9151-B6259E501012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Result", "Console.Result\Console.Result.csproj", "{FF082C7A-172A-4A08-98A9-6CF1E7776A21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.Result", "Console.Result\Console.Result.csproj", "{FF082C7A-172A-4A08-98A9-6CF1E7776A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Strategy", "Console.Strategy\Console.Strategy.csproj", "{BF09D3F6-543D-4812-9483-0FA20F0F189E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{FF082C7A-172A-4A08-98A9-6CF1E7776A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF082C7A-172A-4A08-98A9-6CF1E7776A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF082C7A-172A-4A08-98A9-6CF1E7776A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF09D3F6-543D-4812-9483-0FA20F0F189E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF09D3F6-543D-4812-9483-0FA20F0F189E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF09D3F6-543D-4812-9483-0FA20F0F189E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF09D3F6-543D-4812-9483-0FA20F0F189E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
