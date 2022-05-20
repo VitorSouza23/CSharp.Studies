@@ -1,0 +1,34 @@
+{
+    "folders": [
+        {
+            "path": "Console.CovarianceAndContravariance"
+        },
+        {
+            "path": "Console.Strategy"
+        },
+        {
+            "path": "Console.Span"
+        },
+        {
+            "path": "Console.Result"
+        },
+        {
+            "path": "Console.PipeFunctions"
+        },
+        {
+            "path": "Console.Memory"
+        },
+        {
+            "path": "Console.MatchingPattern"
+        },
+        {
+            "path": "Console.LinqQuerySintax"
+        },
+        {
+            "path": "Console.HigherOrderFunctions"
+        },
+        {
+            "path": "Console.Flags"
+        }
+    ]
+}
