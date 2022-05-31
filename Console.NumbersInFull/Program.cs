@@ -2,6 +2,7 @@
 
 Dictionary<int, string> numberNames = new()
 {
+    [0] = "zero",
     [1] = "one",
     [2] = "two",
     [3] = "trhee",
@@ -10,7 +11,7 @@ Dictionary<int, string> numberNames = new()
     [6] = "six",
     [7] = "seven",
     [8] = "eight",
-    [9] = "nive",
+    [9] = "nine",
     [10] = "ten",
     [11] = "eleven",
     [12] = "twelve",
@@ -33,7 +34,7 @@ Dictionary<int, string> numberNames = new()
 
 string[] units = { "thousand", "million", "billion" };
 
-int number = 4256110;
+int number = 1123456789;
 
 IEnumerable<string> separateNumbers = SeparateNumbers(number);
 IEnumerable<string> translatedNumbers = TranslateNumber(separateNumbers);
@@ -47,7 +48,7 @@ static IEnumerable<string> SeparateNumbers(int number)
     string numberString = number.ToString();
     for (int index = numberString.Length; index >= 1; index -= 3)
     {
-        int start = index >= 3 ? index - 3 : index;
+        int start = index >= 3 ? index - 3 : 0;
         int length = index >= 3 ? 3 : index;
         yield return numberString.Substring(start, length);
     }
@@ -59,6 +60,7 @@ IEnumerable<string> TranslateNumber(IEnumerable<string> numbers)
     {
         yield return number switch
         {
+            "0" => numberNames[0],
             string num when num.StartsWith('0') || num.Length < 3 => numberNames[int.Parse(num)],
             string num when num.EndsWith('0') => $"{numberNames[int.Parse(num[..1])]} hundred {numberNames[int.Parse(num[1..3])]}",
             string num => $"{numberNames[int.Parse(num[..1])]} hundred {numberNames[int.Parse(num[1..2] + "0")]} {numberNames[int.Parse(num[2..])]}",
