@@ -34,7 +34,7 @@ Dictionary<int, string> numberNames = new()
 
 string[] units = { "thousand", "million", "billion" };
 
-int number = 1123456789;
+int number = 9099;
 
 IEnumerable<string> separateNumbers = SeparateNumbers(number);
 IEnumerable<string> translatedNumbers = TranslateNumber(separateNumbers);
@@ -61,7 +61,9 @@ IEnumerable<string> TranslateNumber(IEnumerable<string> numbers)
         yield return number switch
         {
             "0" => numberNames[0],
-            string num when num.StartsWith('0') || num.Length < 3 => numberNames[int.Parse(num)],
+            string num when numberNames.ContainsKey(int.Parse(num)) => numberNames[int.Parse(num)],
+            string num when num.Length < 3 => $"{numberNames[int.Parse(num[..1] + "0")]} {numberNames[int.Parse(num[1..])]}",
+            string num when num.StartsWith('0') => $"{numberNames[int.Parse(num[..2] + "0")]} {numberNames[int.Parse(num[2..])]}",
             string num when num.EndsWith('0') => $"{numberNames[int.Parse(num[..1])]} hundred {numberNames[int.Parse(num[1..3])]}",
             string num => $"{numberNames[int.Parse(num[..1])]} hundred {numberNames[int.Parse(num[1..2] + "0")]} {numberNames[int.Parse(num[2..])]}",
             _ => ""
