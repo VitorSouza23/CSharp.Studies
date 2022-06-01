@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.Result", "Console.R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Strategy", "Console.Strategy\Console.Strategy.csproj", "{BF09D3F6-543D-4812-9483-0FA20F0F189E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.DijkstraShortestPath", "Console.DijkstraShortestPath\Console.DijkstraShortestPath.csproj", "{55E9FE23-155A-4C27-97A8-18538630599B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{BF09D3F6-543D-4812-9483-0FA20F0F189E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF09D3F6-543D-4812-9483-0FA20F0F189E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF09D3F6-543D-4812-9483-0FA20F0F189E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E9FE23-155A-4C27-97A8-18538630599B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E9FE23-155A-4C27-97A8-18538630599B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E9FE23-155A-4C27-97A8-18538630599B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E9FE23-155A-4C27-97A8-18538630599B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
