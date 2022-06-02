@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.NumbersInFull", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.DijkstraShortestPath", "Console.DijkstraShortestPath\Console.DijkstraShortestPath.csproj", "{55E9FE23-155A-4C27-97A8-18538630599B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.FibonacciBenchmark", "Console.FibonacciBenchmark\Console.FibonacciBenchmark.csproj", "{A9F86BC9-E274-425D-A303-EBBBE6ABAD04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{55E9FE23-155A-4C27-97A8-18538630599B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55E9FE23-155A-4C27-97A8-18538630599B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55E9FE23-155A-4C27-97A8-18538630599B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F86BC9-E274-425D-A303-EBBBE6ABAD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F86BC9-E274-425D-A303-EBBBE6ABAD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F86BC9-E274-425D-A303-EBBBE6ABAD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F86BC9-E274-425D-A303-EBBBE6ABAD04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
