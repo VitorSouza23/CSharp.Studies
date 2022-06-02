@@ -6,20 +6,20 @@ namespace Console.FibonacciBenchmark;
 public class BenchmarkTest
 {
     [Benchmark]
-    public void Recursive_100()
+    public void Recursive_10()
     {
-        Fibonacci.Recursive(100);
+        Fibonacci.Recursive(10);
     }
 
     [Benchmark]
-    public void Memo_100()
+    public void Memo_10()
     {
-        Fibonacci.Memo(100);
+        Fibonacci.Memo(10);
     }
     
     [Benchmark]
-    public void BottomUp_100()
+    public void BottomUp_10()
     {
-        Fibonacci.BottomUp(100);
+        Fibonacci.BottomUp(10);
     }
 }
