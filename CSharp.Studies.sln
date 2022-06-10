@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.FibonacciBenchmark"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.BFSShortestReachInGraph", "Console.BFSShortestReachInGraph\Console.BFSShortestReachInGraph.csproj", "{81F72396-EDA8-4BA8-9BBE-D4F71A58DDA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.LiteDBTest", "Console.LiteDBTest\Console.LiteDBTest.csproj", "{E5C64260-42D4-40D2-BD04-5726C5099603}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.LiteDBTest", "Console.LiteDBTest\Console.LiteDBTest.csproj", "{E5C64260-42D4-40D2-BD04-5726C5099603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.StringManipulationBenchmark", "Console.StringManipulationBenchmark\Console.StringManipulationBenchmark.csproj", "{0FCD8436-3C30-4CE2-86F9-FA221C4B4DE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{E5C64260-42D4-40D2-BD04-5726C5099603}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5C64260-42D4-40D2-BD04-5726C5099603}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5C64260-42D4-40D2-BD04-5726C5099603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FCD8436-3C30-4CE2-86F9-FA221C4B4DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FCD8436-3C30-4CE2-86F9-FA221C4B4DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FCD8436-3C30-4CE2-86F9-FA221C4B4DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FCD8436-3C30-4CE2-86F9-FA221C4B4DE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
