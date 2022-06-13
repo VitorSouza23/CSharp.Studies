@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.StringManipulationB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.TestFastEndpoints", "WebApi.TestFastEndpoints\WebApi.TestFastEndpoints.csproj", "{95D484EF-26CC-49F9-8A43-025EB2B5CCBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.TestMapster", "Console.TestMapster\Console.TestMapster.csproj", "{1AB0E5D5-6BC4-4334-ADCA-7A643523143F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{95D484EF-26CC-49F9-8A43-025EB2B5CCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95D484EF-26CC-49F9-8A43-025EB2B5CCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95D484EF-26CC-49F9-8A43-025EB2B5CCBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB0E5D5-6BC4-4334-ADCA-7A643523143F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB0E5D5-6BC4-4334-ADCA-7A643523143F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB0E5D5-6BC4-4334-ADCA-7A643523143F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB0E5D5-6BC4-4334-ADCA-7A643523143F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
