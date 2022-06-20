@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.GoTypesConcept", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.BitOperations", "Console.BitOperations\Console.BitOperations.csproj", "{D05175F9-449A-42A5-817E-D7259EC21F26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.TestPriodicTimer", "WebApi.TestPriodicTimer\WebApi.TestPriodicTimer.csproj", "{5B0F4159-9917-4FB9-BCE2-07E914038899}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{D05175F9-449A-42A5-817E-D7259EC21F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D05175F9-449A-42A5-817E-D7259EC21F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D05175F9-449A-42A5-817E-D7259EC21F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0F4159-9917-4FB9-BCE2-07E914038899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0F4159-9917-4FB9-BCE2-07E914038899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0F4159-9917-4FB9-BCE2-07E914038899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0F4159-9917-4FB9-BCE2-07E914038899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
