@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.BitOperations", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.TestPriodicTimer", "WebApi.TestPriodicTimer\WebApi.TestPriodicTimer.csproj", "{5B0F4159-9917-4FB9-BCE2-07E914038899}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.TestMatriz", "Console.TestMatriz\Console.TestMatriz.csproj", "{392C4D19-C810-47B4-94F0-4D5C36D003E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.TestMatriz", "Console.TestMatriz\Console.TestMatriz.csproj", "{392C4D19-C810-47B4-94F0-4D5C36D003E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.StringAlignment", "Console.StringAlignment\Console.StringAlignment.csproj", "{81E5F582-0EE0-4FAF-89EB-2E2290B42346}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{392C4D19-C810-47B4-94F0-4D5C36D003E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{392C4D19-C810-47B4-94F0-4D5C36D003E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{392C4D19-C810-47B4-94F0-4D5C36D003E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E5F582-0EE0-4FAF-89EB-2E2290B42346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E5F582-0EE0-4FAF-89EB-2E2290B42346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E5F582-0EE0-4FAF-89EB-2E2290B42346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E5F582-0EE0-4FAF-89EB-2E2290B42346}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
