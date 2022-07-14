@@ -14,4 +14,16 @@ module Calculations =
         | (Uncertain, _) | (_, Uncertain) -> Uncertain
         | (Good, Good) -> Good
 
+    type Attribute = {Value: double; Quality: Quality}
+
+    let calculateAttribute a1 a2 formula = 
+        let value = 
+            (a1.Value, a2.Value)
+            ||> formula
+        let quality =
+            (a1.Quality, a2.Quality)
+            ||> quality
+        let a3 = {Value = value; Quality = quality}
+        a3
+
 
