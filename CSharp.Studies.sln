@@ -49,9 +49,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.TestPriodicTimer", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.TestMatriz", "Console.TestMatriz\Console.TestMatriz.csproj", "{392C4D19-C810-47B4-94F0-4D5C36D003E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.StringAlignment", "Console.StringAlignment\Console.StringAlignment.csproj", "{81E5F582-0EE0-4FAF-89EB-2E2290B42346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.StringAlignment", "Console.StringAlignment\Console.StringAlignment.csproj", "{81E5F582-0EE0-4FAF-89EB-2E2290B42346}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.TestLazy", "Console.TestLazy\Console.TestLazy.csproj", "{05D7C920-2FE9-4789-95B2-6E691E1DFF33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.TestLazy", "Console.TestLazy\Console.TestLazy.csproj", "{05D7C920-2FE9-4789-95B2-6E691E1DFF33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FSharpInteroperability", "FSharpInteroperability", "{56304FDD-D652-4611-8662-59E7BC31EA78}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpCalculations", "FSharpCalculations\FSharpCalculations.fsproj", "{E3D676C9-F716-40FB-9CAE-0E4F7C274A7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.FSharpInteroperability", "Console.FSharpInteroperability\Console.FSharpInteroperability.csproj", "{95CAC362-51CA-4DC8-B9BE-00FA3DA44FEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,9 +165,21 @@ Global
 		{05D7C920-2FE9-4789-95B2-6E691E1DFF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05D7C920-2FE9-4789-95B2-6E691E1DFF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05D7C920-2FE9-4789-95B2-6E691E1DFF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D676C9-F716-40FB-9CAE-0E4F7C274A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D676C9-F716-40FB-9CAE-0E4F7C274A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D676C9-F716-40FB-9CAE-0E4F7C274A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D676C9-F716-40FB-9CAE-0E4F7C274A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95CAC362-51CA-4DC8-B9BE-00FA3DA44FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CAC362-51CA-4DC8-B9BE-00FA3DA44FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CAC362-51CA-4DC8-B9BE-00FA3DA44FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CAC362-51CA-4DC8-B9BE-00FA3DA44FEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3D676C9-F716-40FB-9CAE-0E4F7C274A7C} = {56304FDD-D652-4611-8662-59E7BC31EA78}
+		{95CAC362-51CA-4DC8-B9BE-00FA3DA44FEA} = {56304FDD-D652-4611-8662-59E7BC31EA78}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17BB312D-D3CA-49DC-A6AA-621F612B910F}
