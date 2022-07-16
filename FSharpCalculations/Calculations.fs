@@ -25,5 +25,3 @@ module Calculations =
             ||> quality
         let a3 = {Value = value; Quality = quality}
         a3
-
-
