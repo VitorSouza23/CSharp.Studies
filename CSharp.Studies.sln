@@ -63,7 +63,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.Tests", "Console.Te
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.DefaultProperties", "Console.DefaultProperties\Console.DefaultProperties.csproj", "{5133E75C-4EA8-41B5-8774-136F91437103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ImmutableCollections", "Console.ImmutableCollections\Console.ImmutableCollections.csproj", "{1D54A760-AEF2-4050-B6DA-0B641E9EA574}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.ImmutableCollections", "Console.ImmutableCollections\Console.ImmutableCollections.csproj", "{1D54A760-AEF2-4050-B6DA-0B641E9EA574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.TestVerifySnapshot", "Console.TestVerifySnapshot\Console.TestVerifySnapshot.csproj", "{095AD381-A1A7-4712-A185-5B02FDB9BA05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,6 +193,10 @@ Global
 		{1D54A760-AEF2-4050-B6DA-0B641E9EA574}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D54A760-AEF2-4050-B6DA-0B641E9EA574}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D54A760-AEF2-4050-B6DA-0B641E9EA574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095AD381-A1A7-4712-A185-5B02FDB9BA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095AD381-A1A7-4712-A185-5B02FDB9BA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095AD381-A1A7-4712-A185-5B02FDB9BA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095AD381-A1A7-4712-A185-5B02FDB9BA05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
