@@ -55,11 +55,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.TestLazy", "Console
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FSharpInteroperability", "FSharpInteroperability", "{56304FDD-D652-4611-8662-59E7BC31EA78}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpCalculations", "FSharpCalculations\FSharpCalculations.fsproj", "{E3D676C9-F716-40FB-9CAE-0E4F7C274A7C}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharpCalculations", "FSharpCalculations\FSharpCalculations.fsproj", "{E3D676C9-F716-40FB-9CAE-0E4F7C274A7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.FSharpInteroperability", "Console.FSharpInteroperability\Console.FSharpInteroperability.csproj", "{95CAC362-51CA-4DC8-B9BE-00FA3DA44FEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.FSharpInteroperability", "Console.FSharpInteroperability\Console.FSharpInteroperability.csproj", "{95CAC362-51CA-4DC8-B9BE-00FA3DA44FEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Tests", "Console.Tests\Console.Tests.csproj", "{5AAE33B8-1420-41C5-9152-36DFDDA872B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.Tests", "Console.Tests\Console.Tests.csproj", "{5AAE33B8-1420-41C5-9152-36DFDDA872B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.DefaultProperties", "Console.DefaultProperties\Console.DefaultProperties.csproj", "{5133E75C-4EA8-41B5-8774-136F91437103}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.ImmutableCollections", "Console.ImmutableCollections\Console.ImmutableCollections.csproj", "{1D54A760-AEF2-4050-B6DA-0B641E9EA574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.TestVerifySnapshot", "Console.TestVerifySnapshot\Console.TestVerifySnapshot.csproj", "{095AD381-A1A7-4712-A185-5B02FDB9BA05}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DateTimeOffsetTest", "DateTimeOffsetTest", "{8F3B33BF-07DB-40A8-93F0-5DB6C36C3B03}"
 EndProject
@@ -185,6 +191,7 @@ Global
 		{5AAE33B8-1420-41C5-9152-36DFDDA872B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AAE33B8-1420-41C5-9152-36DFDDA872B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AAE33B8-1420-41C5-9152-36DFDDA872B7}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{7672B77C-2B65-40BC-8908-D2BFA52F7C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7672B77C-2B65-40BC-8908-D2BFA52F7C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7672B77C-2B65-40BC-8908-D2BFA52F7C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -193,6 +200,20 @@ Global
 		{3E94FB93-78F7-4514-A9A4-24AAB8914E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E94FB93-78F7-4514-A9A4-24AAB8914E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E94FB93-78F7-4514-A9A4-24AAB8914E51}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{5133E75C-4EA8-41B5-8774-136F91437103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5133E75C-4EA8-41B5-8774-136F91437103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5133E75C-4EA8-41B5-8774-136F91437103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5133E75C-4EA8-41B5-8774-136F91437103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D54A760-AEF2-4050-B6DA-0B641E9EA574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D54A760-AEF2-4050-B6DA-0B641E9EA574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D54A760-AEF2-4050-B6DA-0B641E9EA574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D54A760-AEF2-4050-B6DA-0B641E9EA574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095AD381-A1A7-4712-A185-5B02FDB9BA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095AD381-A1A7-4712-A185-5B02FDB9BA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095AD381-A1A7-4712-A185-5B02FDB9BA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095AD381-A1A7-4712-A185-5B02FDB9BA05}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> b1d3ce91ba38c772f9dffda9c309509359583aba
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
