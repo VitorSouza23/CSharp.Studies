@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.RandomThreadSafeIss
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.PathClass", "Console.PathClass\Console.PathClass.csproj", "{06CFE5FA-90D6-4127-9F73-2690E817EC4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.MediatoRBenchmark", "Console.MediatoRBenchmark\Console.MediatoRBenchmark.csproj", "{20CCA778-04A3-4C70-8740-8D13ADCEFB3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -229,6 +231,10 @@ Global
 		{06CFE5FA-90D6-4127-9F73-2690E817EC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06CFE5FA-90D6-4127-9F73-2690E817EC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06CFE5FA-90D6-4127-9F73-2690E817EC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CCA778-04A3-4C70-8740-8D13ADCEFB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CCA778-04A3-4C70-8740-8D13ADCEFB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CCA778-04A3-4C70-8740-8D13ADCEFB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CCA778-04A3-4C70-8740-8D13ADCEFB3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
