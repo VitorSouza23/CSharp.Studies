@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.MediatoRBenchmark",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.TestMicroservice", "WebApi.TestMicroservice\WebApi.TestMicroservice.csproj", "{3E9760C8-C2E8-4254-B9B1-E1CC6C441946}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.TaskCancelationToken", "Console.TaskCancelationToken\Console.TaskCancelationToken.csproj", "{78141810-CD0C-49AC-BB62-0A9874B39D26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -241,6 +243,10 @@ Global
 		{3E9760C8-C2E8-4254-B9B1-E1CC6C441946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E9760C8-C2E8-4254-B9B1-E1CC6C441946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E9760C8-C2E8-4254-B9B1-E1CC6C441946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78141810-CD0C-49AC-BB62-0A9874B39D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78141810-CD0C-49AC-BB62-0A9874B39D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78141810-CD0C-49AC-BB62-0A9874B39D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78141810-CD0C-49AC-BB62-0A9874B39D26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
