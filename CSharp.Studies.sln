@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
@@ -80,6 +80,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.PathClass", "Console.PathClass\Console.PathClass.csproj", "{06CFE5FA-90D6-4127-9F73-2690E817EC4D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.MediatoRBenchmark", "Console.MediatoRBenchmark\Console.MediatoRBenchmark.csproj", "{20CCA778-04A3-4C70-8740-8D13ADCEFB3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.TestMicroservice", "WebApi.TestMicroservice\WebApi.TestMicroservice.csproj", "{3E9760C8-C2E8-4254-B9B1-E1CC6C441946}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -235,6 +237,10 @@ Global
 		{20CCA778-04A3-4C70-8740-8D13ADCEFB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20CCA778-04A3-4C70-8740-8D13ADCEFB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20CCA778-04A3-4C70-8740-8D13ADCEFB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9760C8-C2E8-4254-B9B1-E1CC6C441946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9760C8-C2E8-4254-B9B1-E1CC6C441946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9760C8-C2E8-4254-B9B1-E1CC6C441946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9760C8-C2E8-4254-B9B1-E1CC6C441946}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
