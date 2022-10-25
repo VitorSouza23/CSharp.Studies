@@ -87,6 +87,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.TaskCancelationToke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.DebuggerAttributes", "Console.DebuggerAttributes\Console.DebuggerAttributes.csproj", "{69D5489D-8032-4580-9ED6-107D4CF2E745}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.TestTimeSpan", "Console.TestTimeSpan\Console.TestTimeSpan.csproj", "{EDC3BD31-FCA6-4326-B159-94A5CCF58398}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -253,6 +255,10 @@ Global
 		{69D5489D-8032-4580-9ED6-107D4CF2E745}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69D5489D-8032-4580-9ED6-107D4CF2E745}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69D5489D-8032-4580-9ED6-107D4CF2E745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC3BD31-FCA6-4326-B159-94A5CCF58398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC3BD31-FCA6-4326-B159-94A5CCF58398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC3BD31-FCA6-4326-B159-94A5CCF58398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC3BD31-FCA6-4326-B159-94A5CCF58398}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
