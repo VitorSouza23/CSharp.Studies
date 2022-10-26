@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.DebuggerAttributes"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.TestTimeSpan", "Console.TestTimeSpan\Console.TestTimeSpan.csproj", "{EDC3BD31-FCA6-4326-B159-94A5CCF58398}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.WhenTryCatch", "Console.WhenTryCatch\Console.WhenTryCatch.csproj", "{C697E115-3C34-49B0-9802-745709ED32F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -259,6 +261,10 @@ Global
 		{EDC3BD31-FCA6-4326-B159-94A5CCF58398}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC3BD31-FCA6-4326-B159-94A5CCF58398}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC3BD31-FCA6-4326-B159-94A5CCF58398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C697E115-3C34-49B0-9802-745709ED32F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C697E115-3C34-49B0-9802-745709ED32F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C697E115-3C34-49B0-9802-745709ED32F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C697E115-3C34-49B0-9802-745709ED32F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
