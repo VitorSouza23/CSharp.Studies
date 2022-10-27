@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.WhenTryCatch", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ConvertImageToBase64", "Console.ConvertImageToBase64\Console.ConvertImageToBase64.csproj", "{61D9E2D4-8306-4494-A1E6-F7DB509443FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.EverethingAwaitable", "Console.EverethingAwaitable\Console.EverethingAwaitable.csproj", "{8A7BA7F0-E920-438C-8E64-8501D04D7708}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -271,6 +273,10 @@ Global
 		{61D9E2D4-8306-4494-A1E6-F7DB509443FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61D9E2D4-8306-4494-A1E6-F7DB509443FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61D9E2D4-8306-4494-A1E6-F7DB509443FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7BA7F0-E920-438C-8E64-8501D04D7708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7BA7F0-E920-438C-8E64-8501D04D7708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7BA7F0-E920-438C-8E64-8501D04D7708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7BA7F0-E920-438C-8E64-8501D04D7708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
