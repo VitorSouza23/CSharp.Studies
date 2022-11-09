@@ -1,3 +1,5 @@
+namespace Console.TestCSahrp11;
+
 public interface ITest
 {
     static abstract string Dump();
