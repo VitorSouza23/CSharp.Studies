@@ -1,18 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.Diagnostics.CodeAnalysis;
-using static LinqQuerySintax.Model;
-
-namespace LinqQuerySintax;
+﻿namespace LinqQuerySintax;
 
 public class DatabaseContext : DbContext
 {
-    public DatabaseContext([NotNull] DbContextOptions options) : base(options)
+    public DatabaseContext(DbContextOptions options) : base(options)
     {
     }
 
-    public DbSet<Saller> Sallers { get; set; }
-    public DbSet<Sale> Sales { get; set; }
-    public DbSet<Product> Products { get; set; }
+    public DbSet<Saller> Sallers { get; set; } = default!;
+    public DbSet<Sale> Sales { get; set; } = default!;
+    public DbSet<Product> Products { get; set; } = default!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

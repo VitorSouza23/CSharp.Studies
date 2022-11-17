@@ -1,5 +1,4 @@
-﻿using LinqQuerySintax;
-using Microsoft.EntityFrameworkCore;
+﻿using System.ComponentModel.Design;
 
 var options = new DbContextOptionsBuilder<DatabaseContext>()
                 .UseInMemoryDatabase("Test")
@@ -22,6 +21,25 @@ foreach (var data in datas)
     Console.WriteLine($"Saller: {data.Saller}");
     foreach (var product in data.ProductsSold)
     {
-        Console.WriteLine($"Product sold: {product}");
+        Console.WriteLine($"    Product sold: {product}");
     }
+    Console.WriteLine();
+}
+
+var sales =
+    from sale in context.Sales
+    let nextTwoMonths = DateTime.Now.AddMonths(2)
+    where sale.Date > nextTwoMonths
+    select new { sale.Id, sale.Date, Total = sale.Producs!.Sum(p => p.Value), Sallle = sale.Saller!.Name };
+
+foreach (var sale in sales)
+{
+    Console.WriteLine(
+    $"""
+    Sale: {sale.Id},
+    Date: {sale.Date:s},
+    Total: ¢ {sale.Total},
+    Saller: {sale.Sallle}
+    """);
+    Console.WriteLine();
 }
